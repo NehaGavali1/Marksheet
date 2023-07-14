@@ -1,0 +1,75 @@
+body{margin-top:0px;
+margin-bottom:0px;}
+
+.box,.grade,.remark{
+    width:35px;
+    }
+
+    #marksF input{
+        width:30px;
+    }#marksG input{
+        width:30px;
+    }#marksH input{
+        width:30px;
+    }#marksI input{
+        width:30px;
+    }#marksJ input{
+        width:30px;
+    }#marksK input{
+        width:30px;
+    }#marksL input{
+        width:30px;
+    }
+
+    #gradeM input{
+        width:30px;
+    }#gradeN input{
+        width:30px;
+    }#gradeO input{
+        width:30px;
+    }#gradeP input{
+        width:30px;
+    }#gradeQ input{
+        width:30px;
+    }#gradeR input{
+        width:30px;
+    }#gradeS input{
+        width:30px;
+    }
+
+.marksheet{
+    position:fixed;
+    margin-right:500px;
+    margin-top:0px;
+    width:1000px;
+    padding:20px;
+}
+  
+ .marksheet_blank{
+    position:fixed;
+    margin-left:310px;
+    margin-top:0px;
+    width:1000px;
+    padding:20px;}
+   
+    @media only screen and (min-width: 200px) and (max-width: 767px)  {
+        .marksheet_blank{
+            margin-top:475px;
+            margin-left:-2px;
+            font-size: small;
+        }
+
+        }
+        @media only screen and (min-width: 200px) and (max-width: 767px)  {
+            .marksheet{
+               
+                font-size: small;
+            }
+    
+            }
+           
+        
+
+ 
+ 
+ 

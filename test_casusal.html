@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   
+<script>
+
+function GO(){
+   score=document.getElementById("marks1").value;  
+   score = +score;
+  
+     if(score<=100 && score>=95){
+      document.getElementById("gradeM").innerHTML="O";
+     }else{
+      document.getElementById("gradeM").innerHTML="fail";
+
+         if(score<=94 && score>=85){
+           
+            document.getElementById("gradeM").innerHTML="A";
+         }
+         
+         if(score<=84 && score>=65){
+           
+            document.getElementById("gradeM").innerHTML="B";
+         }
+         if(score<=64 && score>=55){
+           
+           document.getElementById("gradeM").innerHTML="C";
+        }
+
+         if(score<=54 && score>=30){
+           
+            document.getElementById("gradeM").innerHTML="D";
+         }
+         
+      }
+
+} 
+
+
+   </script>
+
+
+
+<table width=30% border="1px solid black">
+<tr>
+<td><input type="text" id="marks1"></td>
+<td><button onclick="GO()">ok</button></td>
+<td><p id="gradeM">grade</p></td>
+</tr>
+
+</table>
+
+
+   </body>
+   </html>

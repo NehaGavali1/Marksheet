@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head><title>Grade Scale</title>
+<script type="text/javascript">
+function Go()
+{
+  var grade = document.getElementById('marks1').value;
+  var result = document.getElementById('gradeM');
+  
+  if (grade >= 90 && grade <= 100)
+  {
+    result.innerHTML = "A";
+  }
+  else if (grade >= 80 && grade < 90)
+  {
+    result.innerHTML = "B";
+  }
+  else if (grade >= 70 && grade < 80)
+  {
+    result.innerHTML = "C";
+  }
+  else if (grade >= 60 && grade < 70)
+  {
+    result.innerHTML = 'D';
+  }
+  else if (grade < 60)
+  {
+    result.innerHTML = "F";
+  }
+  else
+  {
+    window.alert("Invalid grade. Please enter a numerical grade.");
+  }
+}
+</script>
+</head>
+<body>
+    <table width="50px" border="2px solid red;">
+<tr>
+    <td><input type="text" id="marks1"></td>
+<td><button onclick="Go()">ok</button></td>
+
+<td ><p id="gradeM"></td>
+</tr>
+</table>
+</body>
+</html>

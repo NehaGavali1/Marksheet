@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="main.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <style>
+        #one {height:50% !important;
+        background-color:!important;
+        overflow: auto!important;
+        /* clear: right!important; */
+
+        /* padding-bottom: 100px !important; */
+    
+        #two {height: 50% !important;
+        overflow: auto !important;}
+        /* padding-bottom: 100px !important;*/
+
+        .box,.grade,.remark{
+        width: 50px !important;
+        background-color:aqua !important;}
+     
+
+    </style>
+  </head>
+  <body>
+    <div class="container overflow-hidden text-center">
+  <div class="row gx-5">
+    <div class="col">
+     <div class="p-3 border bg-light" id="one">
+        <div class="marksheet">
+        <!-- TABLE 1 START -->
+        <table width="35%" height="50%" border="2px solid black">
+            <!-- style="font-family:'new old english','verdana';"  -->
+            <tr>
+            <th>
+                <!-- University Of Mumbai -->
+                <img src="logo.jpg" style="width:35%;">
+            </th>
+                
+    
+        </tr>
+        </table>
+        <!-- TABEL1 END -->
+    
+    <!-- TABEL2.1  -->
+    <table width="35%" height="50%" border="1px solid black">
+       <TH> MARKSHEET</TH>
+       
+       <table width="35%" height="50%" border="2px solid black">
+        <tr>
+        <td>SEAT NO.</s></td>
+            <td>CENTER NO</td>
+                <td>INTAKE</td>
+                    <td>SR.NO STATEMENT</td>
+    
+        </tr>
+    </table>
+     <!-- TABEL2.1 END -->
+      <!-- TABEL2.2 start -->
+    <table width="35%" height="50%" border="2px solid black">
+        <tr>
+        <td><input type="text" id="seat" style="width:50px;"> </td>
+            <td><input type="text" id="center" style="width:50px;"></td>
+                <td><input type="text" id="intake" style="width:50px;"></td>
+                    <td><input type="text" id="sr_no" style="width:90px;"></td>
+    
+        </tr>
+    </table>
+        <!-- TABEL2.2 END -->
+    </table>
+    <!-- TABEL3  -->
+    <table width="35%" height="50%" border="1px solid black">
+        <tr>
+           <th>CANDIDATE NAME</th>
+    </tr>
+    </table>
+    <table width="35%" height="50%" border="1px solid black">
+        <tr>
+           <th><input type="text" id="name" style="width:335px;"></th>
+    </tr>
+    </table>
+    <!-- TABEL3 END -->
+    <!-- TABLE4 -->
+    <table width="35%" height="50%" border="2px solid black">
+        <tr>
+        <td>SUBJECT NAME</s></td>
+            <td>OUT OF</td>
+                 <td>MARKS</td>
+                    <td>GRADE</td>
+    
+    </tr>
+    <tr>
+        <td>HTML</s></td>
+            <td>100</td>
+                 <td><input class="box" type="text" id="marks"></td>
+                 <td><input class="grade" type="text" id="grade"></td>
+    
+    </tr>
+    <tr>
+        <td>.NET</s></td>
+            <td>100</td>
+            <td><input class="box" type="text" id="marks"></td>
+            <td><input class="grade" type="text" id="grade"></td>
+    
+    </tr>
+    <tr>
+        <td>C PROGRAMMING</s></td>
+            <td>100</td>
+            <td><input class="box" type="text" id="marks"></td>
+                <td><input class="grade" type="text" id="grade"></td>
+    
+    </tr>
+    <tr>
+        <td>PYTHON</s></td>
+            <td>100</td>
+            <td><input class="box" type="text" id="marks"></td>
+                <td><input class="grade" type="text" id="grade"></td>
+    
+    </tr>
+    <tr>
+        <td>JAVE</s></td>
+            <td>100</td>
+                <td><input class="box" type="text" id="marks"></td>
+                <td><input class="grade" type="text" id="grade"></td>
+    
+    </tr>
+    <tr>
+        <td>SQL</s></td>
+            <td>100</td>
+                    <td><input class="box" type="text" id="marks"></td>
+                <td><input class="grade" type="text" id="grade"></td>
+    
+    </tr>
+    <tr>
+        <td>PROJECT</s></td>
+            <td>100</td>
+                <td><input class="box" type="text" id="marks"></td>
+                    <td><input class="grade" type="text" id="grade"></td>
+                    
+    </tr>
+    <tr>
+        <td><input class="remark" type="text" id="marks"></td>
+            <td><input class="box" type="text" id="marks"></td>
+                <td><input class="box" type="text" id="marks"></td>
+                    <td><input class="grade" type="text" id="grade"></td>
+    
+    </tr>
+    
+    </table>
+    <!-- TABLE4 END -->
+    <!-- TABLE5END -->
+    <table width="35%" height="50%" border="1px solid black">
+        <tr>
+        <th><input type="button" value="PRINT"></th>
+            <td>sign</td>
+                 
+    </tr>
+    </table>
+    
+    <!-- TABLE5 END -->
+    
+    </div><!--add div-->
+        </div><!--this are last bootstrap div-->
+    </div>
+    <div class="col">
+      <div class="p-3 border bg-light" id="two"><div class="marksheet">
+        <!-- TABLE 1 START -->
+        <table width="35%" height="50%" border="2px solid black">
+            <!-- style="font-family:'new old english','verdana';"  -->
+            <tr>
+            <th>
+                <!-- University Of Mumbai -->
+                <img src="logo.jpg" style="width:35%;">
+            </th>
+                
+    
+        </tr>
+        </table>
+        <!-- TABEL1 END -->
+    
+    <!-- TABEL2.1  -->
+    <table width="35%" height="50%" border="1px solid black">
+       <TH> MARKSHEET</TH>
+       
+       <table width="35%" height="50%" border="2px solid black">
+        <tr>
+        <td>SEAT NO.</s></td>
+            <td>CENTER NO</td>
+                <td>INTAKE</td>
+                    <td>SR.NO STATEMENT</td>
+    
+        </tr>
+    </table>
+     <!-- TABEL2.1 END -->
+      <!-- TABEL2.2 start -->
+    <table width="35%" height="50%" border="2px solid black">
+        <tr>
+        <td><input type="text" id="seat" style="width:50px;"> </td>
+            <td><input type="text" id="center" style="width:50px;"></td>
+                <td><input type="text" id="intake" style="width:50px;"></td>
+                    <td><input type="text" id="sr_no" style="width:90px;"></td>
+    
+        </tr>
+    </table>
+        <!-- TABEL2.2 END -->
+    </table>
+    <!-- TABEL3  -->
+    <table width="35%" height="50%" border="1px solid black">
+        <tr>
+           <th>CANDIDATE NAME</th>
+    </tr>
+    </table>
+    <table width="35%" height="50%" border="1px solid black">
+        <tr>
+           <th><input type="text" id="name" style="width:335px;"></th>
+    </tr>
+    </table>
+    <!-- TABEL3 END -->
+    <!-- TABLE4 -->
+    <table width="35%" height="50%" border="2px solid black">
+        <tr>
+        <td>SUBJECT NAME</s></td>
+            <td>OUT OF</td>
+                 <td>MARKS</td>
+                    <td>GRADE</td>
+    
+    </tr>
+    <tr>
+        <td>HTML</s></td>
+            <td>100</td>
+                 <td><input class="box" type="text" id="marks"></td>
+                 <td><input class="grade" type="text" id="grade"></td>
+    
+    </tr>
+    <tr>
+        <td>.NET</s></td>
+            <td>100</td>
+            <td><input class="box" type="text" id="marks"></td>
+            <td><input class="grade" type="text" id="grade"></td>
+    
+    </tr>
+    <tr>
+        <td>C PROGRAMMING</s></td>
+            <td>100</td>
+            <td><input class="box" type="text" id="marks"></td>
+                <td><input class="grade" type="text" id="grade"></td>
+    
+    </tr>
+    <tr>
+        <td>PYTHON</s></td>
+            <td>100</td>
+            <td><input class="box" type="text" id="marks"></td>
+                <td><input class="grade" type="text" id="grade"></td>
+    
+    </tr>
+    <tr>
+        <td>JAVE</s></td>
+            <td>100</td>
+                <td><input class="box" type="text" id="marks"></td>
+                <td><input class="grade" type="text" id="grade"></td>
+    
+    </tr>
+    <tr>
+        <td>SQL</s></td>
+            <td>100</td>
+                    <td><input class="box" type="text" id="marks"></td>
+                <td><input class="grade" type="text" id="grade"></td>
+    
+    </tr>
+    <tr>
+        <td>PROJECT</s></td>
+            <td>100</td>
+                <td><input class="box" type="text" id="marks"></td>
+                    <td><input class="grade" type="text" id="grade"></td>
+                    
+    </tr>
+    <tr>
+        <td><input class="remark" type="text" id="marks"></td>
+            <td><input class="box" type="text" id="marks"></td>
+                <td><input class="box" type="text" id="marks"></td>
+                    <td><input class="grade" type="text" id="grade"></td>
+    
+    </tr>
+    
+    </table>
+    <!-- TABLE4 END -->
+    <!-- TABLE5END -->
+    <table width="35%" height="50%" border="1px solid black">
+        <tr>
+        <th><input type="button" value="PRINT"></th>
+            <td>sign</td>
+                 
+    </tr>
+    </table>
+    
+    <!-- TABLE5 END -->
+    
+    </div>
+        </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>
