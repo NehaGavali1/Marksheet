@@ -132,12 +132,12 @@ if(final<=100 && final>=95){
            
             document.getElementById("remark").innerHTML="PASS";
          }
-         if(final<=64 && final>=55){
+         if(final<=64 && final>=35){
            
            document.getElementById("remark").innerHTML="PASS";
         }
         
-         if(final<=54 && final>=30){
+         if(final<=54 && final>=35){
            
             document.getElementById("remark").innerHTML="PASS";
          }
